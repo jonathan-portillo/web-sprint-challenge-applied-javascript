@@ -16,7 +16,7 @@ axios
     tabs(response);
   })
   .catch((error) => {
-    console.log("error", response.data);
+    console.log("error", error);
   });
 
 const tabs = (object) => {
