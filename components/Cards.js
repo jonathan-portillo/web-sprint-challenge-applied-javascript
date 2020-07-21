@@ -53,8 +53,9 @@ const cards = (object) => {
   card.appendChild(headline);
   card.appendChild(author);
   card.appendChild(imgContainer);
-  author.appendChild(image);
+  imgContainer.appendChild(image);
   author.appendChild(authorName);
+  author.appendChild(imgContainer);
 
   headline.textContent = object.headline;
   image.src = object.authorPhoto;

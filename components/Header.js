@@ -25,6 +25,10 @@ function Header() {
   head.appendChild(times);
   head.appendChild(temp);
 
+  times.textContent = "Lambda Times";
+  date.textContent = "March 28th, 2020";
+  temp.textContent = "98°";
+
   return head;
 }
 
